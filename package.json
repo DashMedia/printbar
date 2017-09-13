@@ -5,12 +5,10 @@
   Adds a box to the top of the printed page with the heading of the page and a QR code.
   ",
   "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
+  
   "repository": [{
       "type": "git",
-      "url": "git+https://aayushsapkota@github.com/DashMedia/printbar.git"
+      "url": "git+https://github.com/DashMedia/printbar/tree/feature/transformation_to_vanilla.js"
     }
   ],
   "keywords": ["printbar", "auto create print view"],
