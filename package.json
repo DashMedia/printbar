@@ -1,21 +1,23 @@
 {
   "name": "printbar",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "printbar - Upgrade your print style sheets. Stuff this in your boilerplate.
   Adds a box to the top of the printed page with the heading of the page and a QR code.
   ",
-<<<<<<< HEAD
+
   "main": "index.js",
-  
-=======
+
+
   "main": "js/printbar.js",
 
->>>>>>> package.json file added
+
+  "main": "js/printbar.js",
+
   "repository": [{
-      "type": "git",
-      "url": "git+https://github.com/DashMedia/printbar/tree/feature/transformation_to_vanilla.js"
-    }
-  ],
+    "type": "git",
+    "url": "git+https://github.com/DashMedia/printbar/tree/feature/transformation_to_vanilla.js"
+  }
+],
   "keywords": ["printbar", "auto create print view"],
   "author": ["Jason Carney", "Jon Haslett", "Aayush Sapkota"],
   "license": "ISC",
