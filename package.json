@@ -5,7 +5,7 @@
   "main": "js/printbar.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DashMedia/printbar/blob/feature/transformation_to_vanilla.js"
+    "url": "git+https://aayushsapkota@github.com/DashMedia/printbar.git"
   },
   "keywords": ["printbar", "auto create print view"],
   "author": ["Jason Carney", "Jon Haslett", "Aayush Sapkota"],
