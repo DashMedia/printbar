@@ -1,27 +1,27 @@
-printbar
-============
+# Printbar
 
 Upgrade your print style sheets. Stuff this in your boilerplate.
 
 Adds a box to the top of the printed page with the heading of the page and a QR code.
 
 
-### How to install
+## How to install
 ------------------
 
 To install printbar into your project just type below code in your project directory in command line
 
 ```batch
-npm install git://github.com/DashMedia/printbar.git#master
+npm install DashMedia/printbar
 ```
 
 
-### How to use
+## How to use
 ------------------
 
-printbar can be imported to a js file and they call to action as:
+Add printbar.scss to your styles and include Printbar in your JS
 
 ```javascript
 import 'printbar';
+require('printbar/sass/printbar.scss');
 printbar();
 ```

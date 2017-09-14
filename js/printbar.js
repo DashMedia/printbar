@@ -1,5 +1,5 @@
 
-export default function Printbar() {
+export default function printbar() {
   'use strict';
   
   const qr = "https://chart.googleapis.com/chart?cht=qr&chs=80x80&chl=" + document.URL + "&choe=UTF-8";
