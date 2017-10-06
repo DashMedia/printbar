@@ -7,11 +7,24 @@
     "type": "git",
     "url": "https://github.com/DashMedia/printbar.git"
   },
-  "keywords": ["printbar", "auto create print view"],
-  "author": ["Jason Carney", "Jon Haslett", "Aayush Sapkota"],
+  "keywords": [
+    "printbar",
+    "auto create print view"
+  ],
+  "author": [
+    "Jason Carney",
+    "Jon Haslett",
+    "Aayush Sapkota"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DashMedia/printbar/issues"
   },
-  "homepage": "https://github.com/DashMedia/printbar#readme"
+  "homepage": "https://github.com/DashMedia/printbar#readme",
+  "scripts": {
+    "build": "node ./node_modules/.bin/webpack src/printbar.js dist/printbar.js"
+  },
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  }
 }
