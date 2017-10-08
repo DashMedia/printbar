@@ -1,21 +1,17 @@
 {
-  "name": "printbar",
+  "name": "@dashmedia/printbar",
   "version": "1.0.3",
   "description": "printbar",
-  "main": "js/printbar.js",
+  "main": "src/printbar.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DashMedia/printbar.git"
+    "url": "git+https://github.com/DashMedia/printbar.git"
   },
   "keywords": [
     "printbar",
     "auto create print view"
   ],
-  "author": [
-    "Jason Carney",
-    "Jon Haslett",
-    "Aayush Sapkota"
-  ],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DashMedia/printbar/issues"
@@ -26,5 +22,6 @@
   },
   "devDependencies": {
     "webpack": "^3.6.0"
-  }
+  },
+  "dependencies": {}
 }
