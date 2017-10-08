@@ -1,6 +1,6 @@
 {
   "name": "@dashmedia/printbar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "printbar",
   "main": "src/printbar.js",
   "repository": {
