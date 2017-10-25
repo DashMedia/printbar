@@ -21,7 +21,8 @@ npm install DashMedia/printbar
 Add printbar.scss to your styles and include Printbar in your JS
 
 ```javascript
-import 'printbar';
-require('printbar/sass/printbar.scss');
+import printbar from '@dashmedia/printbar';
+import '@dashmedia/printbar/src/printbar.scss';
+
 printbar();
 ```
